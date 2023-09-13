@@ -1,0 +1,448 @@
+
+.header{
+    height: 150px;
+    width: 100%;
+    position: sticky;
+    top: 0;
+    z-index: 9999;
+}
+body{
+    margin: 0px;
+}
+.Header-top{
+height: 34%;
+width: 100%;
+background: #fff;
+
+}
+.Header-bottom{
+    height: 66%;
+    width: 100%;
+    background: #fff;  
+    
+}
+.Line{
+    margin: 0;
+    border-top: 1px solid #dbdbdb;
+}
+.location-img{
+    margin-top: 16px;
+    margin-left: 432px;
+    height: 18px;
+    width: 13px;
+    float: left;
+}
+.Location-para{
+    float: left;
+    font-weight: 400;
+    margin-left: 5px;
+   font-size: 16px;
+   font-family: sans-serif;
+   margin-top: 15px;
+}
+.Location-button{
+    margin-top: 10px;
+    margin-left: 18px;
+    background: #202124;
+    color: #fff;
+    height: 32px;
+    font-weight: bold;
+    width: 99px;
+    border: 1px solid #494949;
+    border-radius: 20px;
+    font-size: 11px;
+   
+}
+.Location-button:hover{
+    cursor: pointer;
+}
+.kfcLogo{
+    margin-left: 130px;
+    margin-top: 39px;
+    float: left;   
+}
+.kfcLogo:hover{
+    cursor: pointer;
+}
+.Nav-ItemsLeft{
+    float: left;
+    margin-left: 44px;
+    margin-top: 42px;
+    font-size: 13px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+.Nav-ItemsLeft:hover{
+    cursor: pointer;
+}
+.bucket{
+    width: 25%;
+    float: right;
+}
+.bucket-image{
+    width: 51px;
+    float: right;
+    margin-right: 146px;
+    margin-top: 24px;
+}
+.bucket-image:hover{
+    cursor: pointer;
+}
+.bucket-number{
+    font-weight: bolder;
+    float: right;
+    margin-right: -28px;
+    margin-top: 43px;
+    font-size: 12px;
+}
+.bucket-number:hover{
+    cursor: pointer;
+}
+.Price{
+    width: 25px;
+    float: right;
+    margin-right: -6px;
+    margin-top: 43px;
+    font-size: 14px;
+    font-weight: bold;
+}
+.Price:hover{
+    cursor: pointer;
+}
+.Vertical-line{
+    border-left: solid 1px;
+    width: 1px;
+    height: 35px;
+    margin-left: 109px;
+    margin-top: 32px;
+    border-color: #dbdbdb;
+}
+.Vertical-line:hover{
+    cursor: pointer;
+}
+.Sign-in-pic{
+    width: 21px;
+    float: left;
+    margin-left: 16px;
+    margin-top: -27px;
+
+}
+.Sign-in-pic:hover{
+    cursor: pointer;
+}
+.Sign-in{
+    font-size: 15px;
+    float: left;
+    font-family: sans-serif;
+    margin-left: 46px;
+    margin-top: -28px;
+    font-weight: 900;
+}
+.Sign-in:hover{
+    cursor: pointer;
+}
+.Content{
+    height: 1000px;
+    width: 100%;
+}
+.top-banner{
+    background: #212529;
+    height: 69px;
+    margin-top: -15px;
+}
+ .Order-para{
+    margin-top: 16px;
+    padding-left: 428px;
+    padding-top: 26px;
+    color: #fff;
+    font-weight: 700;
+    font-family: sans-serif;
+    letter-spacing: -1px;
+ }
+ .Order-button{
+    float: right;
+    margin-top: -59px;
+    margin-right: 393px;
+    border-radius: 25px;
+    background: #e4002b;
+    color: #fff;
+    font-size: .9rem;
+    text-align: center;
+    height: 2.75rem;
+    font-weight: 500;
+    width: 166px;
+    border: none;
+ }
+ .Order-button:hover{
+    cursor: pointer;
+ }
+ .big-image{
+    width: 100%;
+ }
+ .big-image:hover{
+    cursor: pointer;
+ }
+ .middle-part{
+    background:#f8f7f5 ;
+    height: 139px;
+ }
+ .three-line{
+    width: 40px;
+    height: 20px;
+    background: repeating-linear-gradient(90deg,#e4002b,#e4002b 8px,#fff 0,#fff 16px);
+    margin-left: 178px;
+    margin-top: -4px;
+ }
+ .welcome{
+    color: #202124;
+    font-family: sans-serif;
+    letter-spacing:-1px;
+    margin-left: 178px;
+    margin-top: 41px;
+    font-weight: bolder;
+ }
+ .Browse-text{
+    font-family: sans-serif;
+    margin-left: 148px;
+    letter-spacing: -1px;
+    margin-top: 100px;
+    position: relative;
+ }
+ .Browse-text::after{
+    content: "";
+    display: block;
+    width: 633px;
+    height: 2px;
+    background: #dbdbdb;
+    position: absolute;
+    right: 180px;
+    top: 50%;
+ }
+ .Menu-browse{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 28px;
+ }
+ .Menu-card{
+    margin-top: 10px;
+    background: #f8f7f5;
+    margin: 1%;
+    width: 17.8vw;
+    height: 17.8vw;
+    border-radius: 4px;
+    cursor: pointer;
+ }
+ .Menu-image{
+    border-radius: 4px;
+    width: 17.8vw;
+    height: 13.18519vw;
+ }
+ .Menu-image-more{
+    width: 13.5vw; 
+    margin-left:22px;
+    height: 13.18519vw;
+ }
+ .Menu-name{
+    text-align: center;
+    font-weight: 900;
+    font-family: sans-serif;
+    font-size: 13px;
+ }
+ .Menu-name-more{
+    font-family: sans-serif;
+    margin-left: 48px;
+    font-size: 13px;
+    font-weight: bold;
+ }
+ .Arrow-image{
+    float: left;
+    margin-left: 144px;
+    margin-top: -26px;
+    width: 28px;
+ }
+ .footer{
+    background: #202124;
+    height: 1000px;
+    margin-top: 391px;
+ }
+ .three-line-footer{
+    width: 82px;
+    height: 41px;
+    background: repeating-linear-gradient(90deg,#e4002b,#e4002b 16px,#202124 0,#202124 33px);
+    margin-left: 202px;
+    margin-top: -4px;
+ }
+ .header-txt{
+    color: #fff;
+    font-family: sans-serif;
+    letter-spacing: -.5px;
+    margin-left: 204px;
+    margin-top: 58px;
+ }
+ .deals-para{
+    color: #fff;
+    float: right;
+    margin-right: 164px;
+    margin-top: -45px;
+    font-family: sans-serif;
+    font-size: 13px;
+    cursor: pointer;
+    
+ }
+ .fa-arrow-right{
+    float: right;
+    margin-right: 140px;
+    margin-top: -46px;
+ }
+ .offer-zone{
+    display: flex;
+    justify-content: center;
+ }
+ .offer-image{
+    height: 234px;
+    width: 310px;
+    border-top-right-radius: 6px;
+    border-top-left-radius: 6px;
+}
+ .picture-zone{
+    height: 390px;
+    width: 310px;
+    background: #f8f7f5;
+    margin: 1%;
+    border-radius: 7px;
+ }
+ .Seek-right{
+    border-radius: 100px;
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+    border: none;
+    font-size: 25px;
+    opacity: .25;
+    margin-right: 41px;
+    margin-top: -213px;
+    float: right;
+ }
+ .Seek-left{
+    border-radius: 100px;
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+    border: none;
+    font-size: 25px; 
+    opacity: .25;
+    margin-left: 46px;
+    margin-top: -218px;
+    float: left;
+ }
+ .offer-text{
+    color: #343a40;
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 15px;
+    font-family: sans-serif;
+    margin-top: -15px;
+ }
+ .offer-text-header{
+    text-align: center;
+    font-size: 25px;
+    color: #e4002b;
+    font-weight: 900;
+    margin-top: -5px;
+    font-family: sans-serif;
+ }
+ .redeem-button{
+    border: 1px solid #494949;
+    margin-left: 5px;
+    height: 50px;
+    width: 150px;
+    border-radius: 10rem;
+    background-color: transparent;
+    border:1px solid #202124;
+    color:#202124;
+    margin-left: 10px;
+    font-weight: 600;
+    margin-left: 150px;
+ }
+ .details-button{
+    background: transparent;
+    border: none;
+    color: #494949;
+    font-weight: 600;
+    margin-top: -26px;
+    margin-left: 19px;
+    float: left;
+ }
+ .details-button:hover{
+    background: rgb(231, 231, 231);
+    cursor: pointer;
+ }
+ .redeem-button:hover{
+    background: black;
+    color: #fff;
+    cursor: pointer;
+ }
+ .Bottom-footer{
+    margin-top: 140px;  
+ }
+ .links{
+    color: #e3e3e3;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: space-evenly;
+ }
+ .table-data{
+    font-size: 14px;
+    cursor: pointer;
+    padding: 5px;
+ }
+ .table-head{
+    padding-right: 44px;
+ }
+ .Kfc-location{
+    font-size: 12px;
+    cursor: pointer;
+ }
+ .logo{
+    cursor: pointer;
+ }
+ .google-playstore{
+    cursor: pointer;
+ }
+ .apple-store{
+    cursor: pointer;
+ }
+ .Kfc-pin{
+    margin-bottom: -5px;
+ }
+ .social-media-insta{
+    float: right;
+    margin-top: 95px;
+    margin-right: 10px;
+    cursor: pointer;   
+ }
+ .social-media-facebook{
+    float: right;
+    margin-top: 95px;
+    cursor: pointer;
+    margin-right: 10px;
+ }
+ .social-media-twitter{
+    float: right;
+    margin-top: 95px;
+    margin-right: 10px;
+    cursor: pointer;
+    padding-right: 100px;
+ }
+
+ .kfc-end{
+    color: #dbdbdb;
+    opacity: .9;
+    font-size: 12px;
+    font-family: sans-serif;
+    text-align: center;
+    margin-top: 109px;
+    margin-left: 50px;
+ }
+
